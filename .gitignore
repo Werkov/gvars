@@ -1,0 +1,13 @@
+*.o
+Makefile
+config.log
+config.status
+gvars3/config.h
+libGVars3.a
+libGVars3.so
+libGVars3.so.0
+libGVars3.so.0.6
+libGVars3_headless.a
+libGVars3_headless.so
+libGVars3_headless.so.0
+libGVars3_headless.so.0.6
