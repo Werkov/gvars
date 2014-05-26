@@ -258,7 +258,7 @@ class GV3
 
 	public:
 		//Get references by name
-		template<class T> static T& get(const std::string& name, const T& default_val=DefaultValue<T>::val(), int flags=0);
+		template<class T> static T& get(const std::string& name, const T& default_val=DefaultValue<T>().val(), int flags=0);
 		template<class T> static T& get(const std::string& name, std::string default_val, int flags=0);
 		
 		//Register GVars
